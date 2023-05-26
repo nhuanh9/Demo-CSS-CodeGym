@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box1:hover {
+            color: blue;
+        }
+
+        .box2:hover .box2-inside {
+            color: red;
+            font-size: 50px;
+            transition: 1000ms;
+        }
+
+        .box3 h1:first-child {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<h1 class="box1">
+    Hello
+</h1>
+<div class="box2">
+    Hi
+    <div class="box2-inside">Inside</div>
+</div>
+<div class="box3">
+    <h1>A</h1>
+    <h1>B</h1>
+    <h1>C</h1>
+    <h1>D</h1>
+</div>
+</body>
+</html>
