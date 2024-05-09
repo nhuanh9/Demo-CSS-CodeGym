@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .head, .main, .nav {
+            width: 100%;
+            margin: 5px 0;
+        }
+        .head {
+            height: 100px;
+            display: flex;
+        }
+        .logo {
+            width: 25%;
+            height: 100px;
+            border: 1px solid;
+        }
+        .banner {
+            width: 75%;
+            height: 100px;
+            border: 1px solid;
+        }
+        .nav {
+            border: 1px solid;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .nav-item {
+            width: 20%;
+            height: 50px;
+            border: 1px solid;
+        }
+        .main {
+            height: 600px;
+            display: flex;
+            gap: 5px;
+        }
+        .left, .mid, .right {
+            border: 1px solid;
+        }
+        .left, .right {
+            width: 20%;
+            height: 600px;
+        }
+        .mid {
+            width: 60%;
+            height: 600px;
+            border: 0;
+        }
+        .slides {
+            width: 100%;
+            height: 150px;
+            border: 1px solid;
+        }
+        .list {
+            width: 100%;
+            height: 1000px;
+            border: 1px solid;
+            margin: 10px 0;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: end;
+        }
+        .item {
+            width: calc(33.33% - 2px - 10px);
+            height: 200px;
+            border: 1px solid;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+<div class="head">
+    <div class="logo"></div>
+    <div class="banner"></div>
+</div>
+<div class="nav">
+    <div class="nav-item"></div>
+    <div class="nav-item"></div>
+    <div class="nav-item"></div>
+</div>
+<div class="main">
+    <div class="left"></div>
+    <div class="mid">
+        <div class="slides"></div>
+        <div class="list">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+    </div>
+    <div class="right"></div>
+</div>
+</body>
+</html>

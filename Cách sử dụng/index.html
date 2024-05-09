@@ -5,13 +5,16 @@
     <title>Title</title>
     <style>
         /*internal*/
-        div {
-            color: red;
-        }
+
     </style>
-    <link rel="stylesheet" href="style.css"> <!--external-->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div style="color: blue">Inline</div>
+<div style="color: blue; font-size: 50px">Inline</div>
+<div>Internal</div>
+<h1 id="x">JSS</h1>
+<script>
+    document.getElementById('x').style.color = 'green'
+</script>
 </body>
 </html>
